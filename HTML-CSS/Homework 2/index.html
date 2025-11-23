@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interactive Periodic Table of Elements</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="container">
+        <header>
+            <h1>Periodic Table of Elements</h1>
+            <p class="subtitle">Click on any element to learn more</p>
+        </header>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-box nonmetal"></div>
+                <span>Nonmetals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box noble-gas"></div>
+                <span>Noble Gases</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box metal"></div>
+                <span>Metals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box transition-metal"></div>
+                <span>Transition Metals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box lanthanide"></div>
+                <span>Lanthanides</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box actinide"></div>
+                <span>Actinides</span>
+            </div>
+        </div>
+
+        <div class="periodic-table" id="periodicTable">
+            <!-- Elements will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
