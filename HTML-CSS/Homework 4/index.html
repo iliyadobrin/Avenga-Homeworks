@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meni</title>
+  </head>
+  <body>
+    <h1>Lunch Special</h1>
+    <p1>monday thru friday, 11am - 3pm </p1><br />
+    <p2>$8.99 (plus tax)</p2><br />
+    <p3>Includes: Sandwiches, Snacks, and Drinks</p3><br /><br />
+    <fieldset>
+      Order Information
+      <form action="" method="post">
+        <br />
+        <label for="name"><strong>Name:</strong></label>
+        <input type="text" id="name" name="name" required/><br /><br />
+        <label for="number"><strong>Number:</strong></label>
+        <input type="text" id="number" name="number" required /><br /><br />
+
+        <label for="drink">Choose where to eat:</label>
+        <select id="drink" name="drink">
+          <option value="here">Here</option>
+          <option value="to go">To go</option></select
+        ><br /><br />
+      </form>
+    </fieldset>
+    <br /><br />
+    <fieldset>
+      <b>Sandwiches</b>
+      <form action="" method="post">
+        <br />
+        <label for="turkey"><em>Monday</em></label><br />
+
+        <input type="checkbox" id="ham" name="sandwich" value="ham" />
+        <label for="ham">Ham Sandwich</label><br />
+
+        <input type="checkbox" id="veggie" name="sandwich" value="veggie" />
+        <label for="veggie">Veggie Sandwich</label><br /><br />
+
+        <label for="turkey"><em>Thursday</em></label><br />
+
+        <input type="checkbox" id="ham" name="sandwich" value="ham" />
+        <label for="ham">Greek Salad Wrap</label><br />
+
+        <input type="checkbox" id="veggie" name="sandwich" value="veggie" />
+        <label for="veggie">Toto Wrap</label><br /><br />
+
+        <label for="turkey"><em>Wednesday</em></label><br />
+
+        <input type="checkbox" id="ham" name="sandwich" value="ham" />
+        <label for="ham">Red Pepper Hummus</label><br />
+
+        <input type="checkbox" id="veggie" name="sandwich" value="veggie" />
+        <label for="veggie">Roasted turkey</label><br /><br />
+
+        <label for="turkey"><em>Thursday</em></label><br />
+
+        <input type="checkbox" id="ham" name="sandwich" value="ham" />
+        <label for="ham">Carrot Ginger Hummus</label><br />
+
+        <input type="checkbox" id="veggie" name="sandwich" value="veggie" />
+        <label for="veggie">Egg Salad</label><br /><br />
+
+        <label for="turkey"><em>Friday</em></label><br />
+
+        <input type="checkbox" id="ham" name="sandwich" value="ham" />
+        <label for="ham">Dado Wrap</label><br />
+
+        <input type="checkbox" id="veggie" name="sandwich" value="veggie" />
+        <label for="veggie">Tuna Salad</label><br />
+        <hr />
+        <input
+          type="checkbox"
+          id="gluten"
+          name="Gluten Free Bread"
+          value="gluten"
+        />
+        <label for="gluten">Gluten Free Bread (75 cents extra)</label><br />
+      </form>
+    </fieldset>
+    <br /><br />
+    <fieldset>
+      <b>Snacks</b>
+      <form action="" method="post">
+        <br />
+        <input type="checkbox" id="Apple" name="snack" value="apple" />
+        <label for="apple">Apple</label><br />
+
+        <input type="checkbox" id="cookie" name="snack" value="banana" />
+        <label for="banana">Banana</label><br />
+
+        <input type="checkbox" id="fruit" name="snack" value="potato_chips" />
+        <label for="potato_chips">Potato Chips</label><br />
+      </form>
+    </fieldset>
+    <br /><br />
+    <fieldset>
+      <b>Drinks</b>
+      <form action="" method="post">
+        <label for="drink">Choose a drink:</label>
+        <select id="drink" name="drink">
+          <option value="coffee">Coffee</option>
+          <option value="iced_coffee">Iced Coffee</option>
+          <option value="tea">Hot Tea</option>
+          <option value="soda">Soda</option>
+        </select>
+        <hr />
+        <input
+          type="checkbox"
+          id="large_drink"
+          name="Large Drink"
+          value="large_drink"
+        />
+        <label for="large_drink">Large Drink (75 cents extra)</label><br />
+      </form>
+    </fieldset>
+    <br /><br />
+    <input type="submit" value="Submit Order" />
+  </body>
+</html>
