@@ -1,0 +1,18 @@
+        .yellow-section {
+            width: 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            background: #2e2e2e;
+        }
+
+        .yellow-top {
+             background: #f5f0e8;
+            flex: 1;
+        }
+
+        .yellow-bottom {
+            background: #ffd500;
+            flex: 1;
+        }

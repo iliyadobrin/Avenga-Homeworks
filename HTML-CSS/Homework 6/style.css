@@ -1,0 +1,37 @@
+        body {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f0f0;
+        }
+
+        .container {
+            width: 535px;
+            height: 510px;
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            grid-template-rows: 154px 190px 1fr;
+            gap: 9px;
+            background: #303030;
+            padding: 6px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            border: none;
+        }
+        .red {
+            background: #e63e2d;
+            grid-column: 2;
+            grid-row: 1 / 3;
+            
+            
+        }
+        .blue {
+            background: #3d8db7;
+            grid-column: 1;
+            grid-row: 3;
+        }

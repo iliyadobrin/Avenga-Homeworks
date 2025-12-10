@@ -1,0 +1,24 @@
+        .krem-section {
+            background: #f5f0e8;
+            flex: 1;
+            border-right: 10px solid #2b2b2b;
+        }
+
+        .krem-bottom {
+            background: #f5f0e8;
+            grid-column: 2;
+            grid-row: 3;
+            display: flex;
+            padding: 0;
+        }
+        .krem-middle {
+            background: #f5f0e8;
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .krem-top {
+            background: #f5f0e8;
+            border-bottom: 10px solid #2b2b2b;
+            grid-column: 1;
+            grid-row: 1;
+        }
