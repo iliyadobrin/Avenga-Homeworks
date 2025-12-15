@@ -30,9 +30,16 @@
 .about-quote {
     font-size: 1.3rem;
     font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1f1f2b;
     margin: 0;
     line-height: 1.8;
+}
+.author {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ff6b4a;
 }
 
 /* Fade-in animation */
