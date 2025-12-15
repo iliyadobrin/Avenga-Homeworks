@@ -1,0 +1,90 @@
+.about {
+    padding: 5rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f1f2b;
+    margin-bottom: 2rem;
+    text-align: center;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.about-content {
+    background-color: #ffe1d8;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 3px solid #ff6b4a;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.about-quote {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #1f1f2b;
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .about {
+        padding: 3rem 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .about-content {
+        padding: 2rem 1.5rem;
+        border-radius: 12px;
+    }
+    
+    .about-quote {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 2rem 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .about-content {
+        padding: 1.5rem 1rem;
+        border: 2px solid #ff6b4a;
+    }
+    
+    .about-quote {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}

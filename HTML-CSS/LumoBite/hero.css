@@ -1,0 +1,144 @@
+.hero {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #ffe1d8 0%, #f7f7fb 100%);
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-label {
+    display: inline-block;
+    background-color: #ff6b4a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #1f1f2b;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    color: #6c6c80;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.image-placeholder {
+    background-color: #e0e0e0;
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    height: 520px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #6c6c80;
+    font-weight: 500;
+}
+
+.hero-image img {
+    height: auto;
+    max-height: 520px;
+    border-radius: 12px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+}
+
+/* Tablet styles (768px - 1024px) */
+@media (max-width: 1024px) {
+    .hero-container {
+        gap: 2rem;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-text {
+        font-size: 1.1rem;
+    }
+    
+    .image-placeholder,
+    .hero-image img {
+        max-height: 400px;
+    }
+}
+
+/* Mobile styles (max 768px) */
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+    
+    .hero-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-text {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+    
+    .image-placeholder,
+    .hero-image img {
+        max-height: 300px;
+        max-width: 100%;
+    }
+}
+
+/* Small mobile (max 480px) */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.75rem;
+    }
+    
+    .hero-label {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .image-placeholder,
+    .hero-image img {
+        max-height: 250px;
+    }
+}
