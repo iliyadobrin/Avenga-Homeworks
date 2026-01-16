@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table Generator</title>
+</head>
+<body>
+    <h1>Dynamic Table Generator</h1>
+    
+    <div>
+        <label>Number of Rows: </label>
+        <input type="number" id="rows" min="1" value="3">
+        <br><br>
+        
+        <label>Number of Columns: </label>
+        <input type="number" id="columns" min="1" value="3">
+        <br><br>
+        
+        <button onclick="createTable()">Create Table</button>
+        <button onclick="createAITable()">Create AI-Enhanced Table</button>
+        <br><br>
+    </div>
+    
+    <div id="tableContainer"></div>
+    <div id="aiStatus"></div>
+    <script src="script.js"></script>
+</body>
+</html>
