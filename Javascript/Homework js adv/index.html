@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Registry</h2>
+
+<form id="studentForm">
+    <input type="text" id="firstName" placeholder="First Name" required>
+    <input type="text" id="lastName" placeholder="Last Name" required>
+    <input type="number" id="age" placeholder="Age" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit">Add Student</button>
+</form>
+
+<h3>Student Database</h3>
+<ol id="studentList"></ol>
+
+<hr>
+
+<h2>Reminder App</h2>
+
+<input type="text" id="remTitle" placeholder="Title"><br><br>
+<input type="text" id="remPriority" placeholder="Priority"><br><br>
+<input type="color" id="remColor"><br><br>
+<textarea id="remDescription" placeholder="Description"></textarea><br><br>
+
+<button id="addReminder">Add Reminder</button>
+<button id="showReminders">Show Reminders</button>
+
+<div id="reminderTable"></div>
+    
+    <script src="./reminder.js"></script>
+    <script src="./studentregistry.js"></script>
+</body>
+</html>
