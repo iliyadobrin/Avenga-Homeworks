@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "A full-stack shopping platform with user authentication, shopping cart, checkout functionality, and admin dashboard for product management.",
+    "tech": ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+    "github": "https://github.com/ilija-dobrinov/ecommerce-platform",
+    "live": "https://ecommerce-platform-demo.netlify.app",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "A productivity application for managing tasks and projects with drag-and-drop Kanban boards, due dates, and team collaboration features.",
+    "tech": ["JavaScript", "HTML5", "CSS3", "LocalStorage API"],
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+    "github": "https://github.com/ilija-dobrinov/task-manager",
+    "live": "https://task-manager-app.netlify.app",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "Real-time weather application displaying current conditions and 7-day forecasts using OpenWeatherMap API with dynamic backgrounds.",
+    "tech": ["JavaScript", "REST APIs", "CSS3", "HTML5"],
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+    "github": "https://github.com/ilija-dobrinov/weather-dashboard",
+    "live": "https://weather-dashboard-app.netlify.app",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Website",
+    "description": "A responsive personal portfolio built with modern web technologies featuring smooth animations and a clean, minimalist design.",
+    "tech": ["HTML5", "CSS3", "JavaScript", "AOS Animation"],
+    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+    "github": "https://github.com/ilija-dobrinov/portfolio",
+    "live": "https://ilija-dobrinov.github.io/portfolio",
+    "featured": false
+  }
+]

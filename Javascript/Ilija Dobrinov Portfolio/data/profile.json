@@ -1,0 +1,23 @@
+{
+  "name": "Ilija Dobrinov",
+  "title": "Frontend Developer",
+  "bio": "Passionate about building clean, user-friendly web experiences. I love turning ideas into reality through code and creating intuitive interfaces that delight users.",
+  "shortBio": "Frontend Developer crafting beautiful web experiences",
+  "skills": [
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "React",
+    "TypeScript",
+    "Git",
+    "REST APIs",
+    "Responsive Design",
+    "SASS/SCSS",
+    "Webpack"
+  ],
+  "email": "ilija.dobrinov@example.com",
+  "github": "https://github.com/ilija-dobrinov",
+  "linkedin": "https://linkedin.com/in/ilija-dobrinov",
+  "location": "Skopje, North Macedonia",
+  "availability": "Open to opportunities"
+}
